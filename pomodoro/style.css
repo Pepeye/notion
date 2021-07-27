@@ -1,0 +1,151 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Oxygen', sans-serif;
+  background: #2f3437;
+  color: white;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3em;
+  font-weight: normal;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  max-width: 350px;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  margin: 50px auto;
+  background: tomato;
+  position: relative;
+}
+
+.l-half,
+.r-half {
+  width: 40% !important;
+  margin: 0 5% 5%!important;
+}
+
+.l-half {
+  float: left;
+}
+
+.r-half {
+  float: right;
+}
+
+
+/* Section for choosing break and Pomodoro lengths */
+
+#timer-lengths {
+  height: 100%;
+}
+
+#break-length,
+#session-length {
+  text-align: center;
+}
+
+.decrease,
+.increase {
+  border: none;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 2em;
+}
+
+.break-num,
+.session-num {
+  font-size: 2em;
+  text-align: center;
+}
+
+
+/* Timer Display Area */
+
+#timer-display {
+  margin: 0 auto;
+  clear: both;
+}
+
+.pomType {
+  text-align: right;
+  margin-right: 5%;
+  padding-top: 5%;
+}
+
+#pomSess button,
+#pomBreak button {
+  margin: 0 auto;
+  background: transparent;
+  border: 0;
+  text-align: center;
+}
+
+#sess-countdown,
+#break-countdown {
+  font-size: 6em;
+  font-family: 'Oxygen', sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+
+/* Start, Stop, Resume, and Pause Buttons */
+
+#timer-buttons {
+  width: 100%;
+}
+
+#timer-buttons h2 {
+  font-size: 2em;
+}
+
+#timer-buttons button {
+  border: none;
+  padding: none;
+  display: block;
+  width: 90%;
+  margin: 0 auto 5%;
+  background-color: rgba(204, 79, 57, 0.5);
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#timer-buttons button:hover {
+  background-color: rgba(204, 79, 57, 1);
+}
+
+
+/* Tomato Counter Area */
+
+#tomatoes {
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 100%;
+  min-height: 150px;
+  background: #2f3437;
+}
+
+.pomProgressTimer {
+  display: inline-block;
+  padding-left: 4.5%;
+  padding-top: 5%;
+  text-align: left;
+}

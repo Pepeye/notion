@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - pompodoro</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div id="timer-lengths">
+    <div id="break-length" class="l-half">
+      <h2>Break</h2>
+      <button class="decrease">-</button>
+      <span class="break-num">5</span>
+      <button class="increase">+</button>
+    </div>
+    <div id="session-length" class="r-half">
+      <h2>Session</h2>
+      <button class="decrease">-</button>
+      <span class="session-num">25</span>
+      <button class="increase">+</button>
+    </div>
+  </div>
+  <div id="timer-display">
+    <div id="pomSess">
+      <h2 class="pomType">Pomodoro #<span class="counter">1</span></h2>
+      <h2 id="sess-countdown">GO</h2>
+    </div>
+    <div id="pomBreak">
+      <h2 class="pomType">Break #<span class="counter">1</span></h2>
+      <h2 id="break-countdown">GO</h2>
+    </div>
+  </div>
+  <div id="timer-buttons">
+    <button id="start-countdown">
+      <h2>Start</h2></button>
+    <button id="pause-countdown">
+      <h2>Pause</h2></button>
+    <button id="stop-countdown" class="l-half">
+      <h2>Stop</h2></button>
+    <button id="resume-countdown" class="r-half">
+      <h2>Resume</h2></button>
+    <div style="clear: both"></div>
+  </div>
+  <div id="tomatoes">
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://s3.amazonaws.com/showcase.knanthony.com/pomodorotimer/jQuery-Timer-2.js'></script>
+<script src='https://s3.amazonaws.com/showcase.knanthony.com/pomodorotimer/jquery-circle-progress.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
