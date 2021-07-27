@@ -6,13 +6,11 @@ body {
   color: #fefefe;
   font-family: "Poppins", sans-serif;
   overflow: hidden;
-  width: 500px;
-  height: 500px;
 }
 
 canvas {
   object-fit: contain;
-  width: 100%;
+  width: 500px;
   margin: 0px auto;
   display: block;
 }
