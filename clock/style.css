@@ -10,7 +10,7 @@ body {
 
 canvas {
   object-fit: contain;
-  width: 100%;
+  width: 500px;
   margin: 0px auto;
   display: block;
 }
