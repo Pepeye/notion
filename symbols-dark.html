@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <style>
-        body {
-            background-color:  #2f3437; <!-- set this value to match your background color (#2f3437 is the default "dark" theme color) -->
-        }
+      body {
+          background-color:  #2f3437; <!-- set this value to match your background color (#2f3437 is the default "dark" theme color) -->
+      }
     </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notion Widget Embed Template</title>
-</head>
-<body>
- 
-  <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div id="tradingview_b9453"></div>
-  <div class="tradingview-widget-copyright"><a href="https://uk.tradingview.com/symbols/AAPL/" rel="noopener" target="_blank"><span class="blue-text">Apple</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.MediumWidget(
-  {
-  "symbols": [
-    [
-      "Apple",
-      "AAPL"
-    ],
-    [
-      "Google",
-      "GOOGL"
-    ],
-    [
-      "Microsoft",
-      "MSFT"
-    ]
-  ],
-  "chartOnly": false,
-  "width": 1114,
-  "height": 400,
-  "locale": "uk",
-  "colorTheme": "dark",
-  "gridLineColor": "rgba(255, 255, 255, 0)",
-  "trendLineColor": "rgba(255, 255, 255, 1)",
-  "fontColor": "rgba(255, 255, 255, 1)",
-  "underLineColor": "rgba(203, 203, 203, 0.3)",
-  "underLineBottomColor": "rgba(238, 238, 238, 0)",
-  "isTransparent": false,
-  "autosize": false,
-  "container_id": "tradingview_b9453"
-}
-  );
-  </script>
-</div>
-<!-- TradingView Widget END -->
-  
-</body>
+  </head>
+  <body>
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+      <div id="tradingview_b9453"></div>
+      <div class="tradingview-widget-copyright">
+        <a
+          href="https://uk.tradingview.com/symbols/AAPL/"
+          rel="noopener"
+          target="_blank"
+          ><span class="blue-text">Apple</span></a
+        >
+        by TradingView
+      </div>
+      <script
+        type="text/javascript"
+        src="https://s3.tradingview.com/tv.js"
+      ></script>
+      <script type="text/javascript">
+        new TradingView.MediumWidget({
+          symbols: [
+            ["Apple", "AAPL"],
+            ["Google", "GOOGL"],
+            ["Microsoft", "MSFT"],
+          ],
+          chartOnly: false,
+          width: 1114,
+          height: 400,
+          locale: "uk",
+          colorTheme: "dark",
+          gridLineColor: "rgba(255, 255, 255, 0)",
+          trendLineColor: "rgba(255, 255, 255, 1)",
+          fontColor: "rgba(255, 255, 255, 1)",
+          underLineColor: "rgba(203, 203, 203, 0.3)",
+          underLineBottomColor: "rgba(238, 238, 238, 0)",
+          isTransparent: true,
+          autosize: false,
+          container_id: "tradingview_b9453",
+        });
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+  </body>
 </html>
