@@ -24,8 +24,8 @@ const timerBg = '#282A2D';
 
 function init()
 {
-	canvas.width = document.documentElement.clientWidth - 35;
-	canvas.height = document.documentElement.clientHeight - 45;
+	canvas.width = document.documentElement.clientWidth - 0;
+	canvas.height = document.documentElement.clientHeight - 10;
 
 	// This calls the draw function repeatedly at a rate of 60 times per second
 	window.requestAnimationFrame(draw);	
