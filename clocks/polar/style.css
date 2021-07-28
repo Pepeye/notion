@@ -1,0 +1,25 @@
+body {
+  background: #2f3437;
+  margin: auto;
+  width: 960px;
+}
+
+.arc-text {
+  font: 16px sans-serif;
+}
+
+.arc-center {
+  fill: none;
+}
+
+#credit {
+  position: absolute;
+  font: 10px sans-serif;
+  right: 10px;
+  bottom: 10px;
+  color: #ddd;
+}
+
+#credit a {
+  color: inherit;
+}
