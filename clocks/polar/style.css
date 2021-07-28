@@ -1,7 +1,11 @@
 body {
   background: #2f3437;
+  margin: 0px;
+  width: 384px;
+  /*
   margin: auto;
   width: 960px;
+  */
 }
 
 .arc-text {
